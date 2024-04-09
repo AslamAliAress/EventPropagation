@@ -1,0 +1,3 @@
+<aura:component>
+<aura:handler event="c:customAppEvent" action="{!c.handleAppEvent}"/>
+</aura:component>	

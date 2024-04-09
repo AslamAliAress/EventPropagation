@@ -1,0 +1,10 @@
+<aura:component>
+
+<aura:handler name="customCompEvent" event="c:customCompEvent" action="{!c.handlerCompEvent}"/>
+<aura:attribute name="sum" type="Integer" />
+
+Addition of the Two Number: {!v.sum}
+
+<c:SourceComp/>
+
+</aura:component>	

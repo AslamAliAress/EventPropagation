@@ -1,0 +1,4 @@
+<aura:component>
+    <c:Comp2/>
+    <c:Comp3/>
+</aura:component>	
