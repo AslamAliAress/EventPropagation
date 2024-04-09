@@ -1,0 +1,13 @@
+<!-- <aura:component >
+    <c:MiddleComp/>
+     <c:MiddleComp2/>
+  <aura:handler name="propagationEvent" event="c:CompEventforpropagation" action="{!c.doHandleinTop}"/>
+</aura:component> -->
+
+<aura:component >
+    <c:MiddleComp/>
+    <c:MiddleComp2/>
+  <aura:handler name="propagationEvent" event="c:CompEventforpropagation" action="{!c.doHandleinTop}" />
+   <!-- phase="capture"/> -->
+
+</aura:component>
